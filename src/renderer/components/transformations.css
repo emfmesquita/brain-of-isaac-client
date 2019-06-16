@@ -1,0 +1,68 @@
+.boi-trans-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    user-select: none;
+}
+
+.boi-trans {
+    display: inline-block;
+    height: 250px;
+    padding: 8px;
+    width: 300px;
+}
+
+.boi-trans-label {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.boi-trans-img {
+    display: inline-block;
+    image-rendering: pixelated;
+    height: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    width: 128px;
+}
+
+.boi-trans-missing {
+    filter: grayscale(100%) contrast(10%) brightness(1.4);
+}
+
+.boi-trans-got {
+    filter: grayscale(100%) contrast(.7) opacity(.5) drop-shadow(0 0 0 green) brightness(2);
+}
+
+.boi-trans-gone {
+    filter: grayscale(100%) contrast(.7) opacity(.5) drop-shadow(0 0 0 red) brightness(2);
+}
+
+.boi-trans-items {
+  margin-top: -12px;
+}
+
+.boi-trans-item,
+.boi-trans-pill {
+    display: "inline-block";
+    height: 32px;
+    width: 32px;
+    margin: 2px;
+}
+
+.boi-trans-missing-items {
+    filter: grayscale(100%) contrast(10%) brightness(1.4);
+}
+
+.boi-trans-item.boi-trans-got-items {
+    filter: grayscale(100%) contrast(.7) opacity(.5) drop-shadow(0 0 0 green) brightness(2);
+}
+
+.boi-trans-gone-items {
+    filter: grayscale(100%) contrast(.7) opacity(.5) drop-shadow(0 0 0 red) brightness(2);
+}

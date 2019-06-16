@@ -1,0 +1,10 @@
+.status-bar {
+    height: 18px;
+    background-color: #aaa;
+    width: calc(100% - 16px);
+    position: fixed;
+    bottom: 0;
+    border-style: solid;
+    border-width: 2px;
+    padding: 2px 6px;
+}
